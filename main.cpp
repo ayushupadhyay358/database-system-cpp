@@ -173,13 +173,5 @@ void menu()
 int main()
 {
 	//code starts here
-    clear_data();
-    add_data("ayush","upadhyay",1234,"mechanical");
-    add_data("akku","upadhyay",4150,"computer");
-    add_data("ayushi","upadhyay",4126,"commerce");
-    display_data();
-    delete_record("ayush","upadhyay",1234,"mechanical");
-    cout<<endl;
-    display_data();
 	return 0;
 }
